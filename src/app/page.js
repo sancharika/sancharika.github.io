@@ -5,6 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+    {/* eslint-disable-next-line react/no-unescaped-entities */}
 
       <header className="header" role="banner" id="top">
         
@@ -41,14 +42,14 @@ export default function Home() {
               <div className="about__text">
                 <div className="about__column">
                   <p>
-                    Welcome to my professional journey! I'm Sancharika Debnath, a
+                    Welcome to my professional journey! I&#39;m Sancharika Debnath, a
                     dynamic Data Scientist with a fervent enthusiasm for leveraging
                     cutting-edge technology to craft innovative solutions. With a
                     solid foundation in data science and backend development.
                     Recently graduating from Kalinga Institute of Industrial
-                    Technology University with a Bachelor's Of Technology in
+                    Technology University with a Bachelor&#39;s Of Technology in
                     Information Technology has equipped me with a strong academic
-                    background to complement my practical skills. I'm eager to
+                    background to complement my practical skills. I&#39;m eager to
                     connect with professionals and organizations committed to
                     driving meaningful change.
                   </p>
@@ -201,7 +202,7 @@ export default function Home() {
                     <b>Neo4j Architecture Development:</b> Collaborated with a
                     cross-functional team to architect and implement a robust Neo4j
                     database structure, facilitating efficient data mining
-                    operations. Leveraged Neo4j's graph database capabilities
+                    operations. Leveraged Neo4j&#39;s graph database capabilities
                     alongside REST API integration and GitHub Actions for
                     streamlined collaboration and deployment.
                   </li>
@@ -257,7 +258,7 @@ export default function Home() {
                   <li>
                     <b>Django REST API Integration:</b> Implemented a comprehensive
                     RESTful API using Django, enabling efficient communication
-                    between the website's front-end and back-end systems. Leveraged
+                    between the website&#39;s front-end and back-end systems. Leveraged
                     industry-standard practices for API design to ensure
                     interoperability, scalability, and security.
                   </li>
@@ -399,7 +400,7 @@ export default function Home() {
                     <b>Model Utilization and Accuracy:</b> Implemented XGBoost, a
                     powerful gradient boosting algorithm, to train the predictive
                     model achieving an impressive accuracy of 76.15%. Additionally,
-                    utilized frameworks such as Keras to enhance the system's
+                    utilized frameworks such as Keras to enhance the system&#39;s
                     capabilities, ensuring accurate predictions and optimization of
                     financial processes.
                   </li>
@@ -436,8 +437,8 @@ export default function Home() {
                     </a>{" "}
                   </div>
                   <p>
-                  A revolutionary ai-powered document assistant, a "magic lamp" for unlocking the secrets within your files.
-                  "Genie File" is an AI-powered document assistant designed to seamlessly extract and analyze information from 
+                  A revolutionary ai-powered document assistant, a &#34;magic lamp&#34; for unlocking the secrets within your files.
+                  &#34;Genie File&#34; is an AI-powered document assistant designed to seamlessly extract and analyze information from 
                   diverse file formats, enabling intuitive question answering and knowledge discovery. By integrating advanced 
                   retrieval-augmented generation techniques with vector databases and customizable knowledge graphs, it 
                   transforms raw data into actionable insights.
@@ -571,7 +572,7 @@ export default function Home() {
                   </div>
                   <p>
                     A tool for generating blog content through speech recognition or
-                    text input, employing Google's generative AI models and
+                    text input, employing Google&#39;s generative AI models and
                     customizable parameters for tone, style, and language.
                   </p>
                   <div className="project__used">
@@ -642,7 +643,7 @@ export default function Home() {
                     </a>{" "}
                   </div>
                   <p>
-                    This project, part of Udacity's AI Programming with Python
+                    This project, part of Udacity&#39;s AI Programming with Python
                     Nanodegree program, involves developing an image classifier
                     using PyTorch and converting it into a command-line application,
                     and users can then use the application to predict the class of
@@ -870,8 +871,8 @@ export default function Home() {
               projects? Need assistance in developing high-performance algorithms or
               data-driven solutions? Or perhaps you have questions about
               implementing cutting-edge techniques in your data science projects?
-              Whether you're looking for fast-performing models, user-friendly
-              interfaces, or simply want to say "Hi 👋," feel free to reach out. I'm
+              Whether you&#39;re looking for fast-performing models, user-friendly
+              interfaces, or simply want to say &#34;Hi 👋,&#34; feel free to reach out. I&#39;m
               here to help! 😊 The quickest way to reach out to me is via an email.
             </p>
             <a href="mailto:sancharikadebnath@gmail.com" className="btn">
