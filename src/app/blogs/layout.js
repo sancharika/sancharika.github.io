@@ -15,11 +15,11 @@ async function sharedMetaData(params) {
     // metadataBase: new URL(settings.url),
     title: {
       default:
-        "Blogs | Sancharika",
-      template: "%s | sancharika"
+        "Blogs | From Data to Life",
+      template: "%s | Sancharika"
     },
-    description:
-      "Blogs on Machine Learning Topics that might help! | Sancharika",
+    description: 
+    "Explore blogs on Data Science, AI, Machine Learning, and life experiences that inspire and inform. | Sancharika Debnath",
     keywords: ["ML", "AI", "Data Science"],
     authors: [{ name: "Sancharika" }],
     // canonical: settings?.url,
