@@ -34,7 +34,7 @@ async function sharedMetaData(params) {
     title: {
       default:
         "Sancharika Debnath | Data Scientist",
-      template: "%s | sancharika"
+      template: "%s | Sancharika"
     },
     description:
       "A Data Scientist who LOVES to explore!",
