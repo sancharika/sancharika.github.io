@@ -23,6 +23,8 @@ export async function generateMetadata({ params }) {
 
 export default async function PostDefault({ params }) {
   const post = await getPostBySlug(params.slug);
+  console.log("desc: ", post.description);
+  
 //   console.log("params slug", post);
 
   return <PostPage post={post} />;
@@ -61,6 +63,7 @@ export async function getAllPostsSlugs() {
         body,
         publishedAt,
         _createdAt,
+        description,
         author->{
              "mainImage": image{
           asset->{
