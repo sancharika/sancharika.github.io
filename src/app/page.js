@@ -59,6 +59,11 @@ export default function Home() {
                 <div className="about__content__points">
                   <h3>Bringing value that resonates: WHY I stand out!!</h3>
                   <ul>
+                  <li>
+                  Co-founder & CTO at Leapon, developing an innovative business relationship 
+                  management tool that leverages AI to enhance productivity and drive ROI for 
+                  professionals.
+                  </li>
                     <li>
                       Dynamic Data Scientist with a passion for leveraging
                       cutting-edge technology to craft innovative solutions.
