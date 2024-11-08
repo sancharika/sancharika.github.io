@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    {/* eslint-disable-next-line react/no-unescaped-entities */}
+      {/* eslint-disable-next-line react/no-unescaped-entities */}
 
       <header className="header" role="banner" id="top">
-        
+
         <div className="header__text-box row">
           <div className="header__text">
             <h1 className="heading-primary">
@@ -172,6 +172,51 @@ export default function Home() {
           <div className="row">
             <h2>Experience</h2>
             <div className="exp__content">
+              <div className="exp__details">
+                <h6 className="exp__comp">
+                  <a
+                    href="https://leapon.tech/"
+                    target="_blank"
+                    className="comp__link"
+                  >
+                    Leapon
+                  </a>
+                  <br />
+                </h6>
+                <h5 className="date">February 2024 - Present</h5>
+                <p className="exp__role">
+                  <b>
+                    <em>CTO</em>
+                  </b>
+                </p>
+                <ul className="exp__jd">
+                  <li>
+                    <b>Product:</b> We started with the idea of enhancing 
+                    the end customer experience in the service industry. Through our insights, we 
+                    realized that enabling professionals is key to making this possible. Today, 
+                    we have built a productivity tool for professionals that helps them build 
+                    strong business relationships.
+                  </li>
+                  <li>
+                    <b>Vision-Driven Product Development:</b> Initiated with the vision of 
+                    revolutionizing the service industry by enhancing the end-customer experience. 
+                    Realized that empowering professionals is the cornerstone of this mission, 
+                    leading to the creation of a productivity tool designed to help them build and 
+                    nurture strong business relationships.
+                  </li>
+                  <li>
+                    <b>System Architecture & Optimization:</b>{" "}
+                    Designed and implemented a robust, modular system architecture that can scale 
+                    effortlessly with growing user demand. Utilized advanced caching techniques and database 
+                    optimization to enhance application performance and reduce latency.
+                  </li>
+                  <li>
+                    <b>User-Centric Development:</b> Continuously gathered feedback through user testing and 
+                    implemented iterative improvements to enhance usability. Prioritized our user&#39;s experience 
+                    by integrating intuitive design principles into the platform&#39;s functionality.
+                  </li>
+                </ul>
+              </div>
               <div className="exp__details">
                 <h5 className="exp__comp">
                   <a
@@ -437,11 +482,11 @@ export default function Home() {
                     </a>{" "}
                   </div>
                   <p>
-                  A revolutionary ai-powered document assistant, a &#34;magic lamp&#34; for unlocking the secrets within your files.
-                  &#34;Genie File&#34; is an AI-powered document assistant designed to seamlessly extract and analyze information from 
-                  diverse file formats, enabling intuitive question answering and knowledge discovery. By integrating advanced 
-                  retrieval-augmented generation techniques with vector databases and customizable knowledge graphs, it 
-                  transforms raw data into actionable insights.
+                    A revolutionary ai-powered document assistant, a &#34;magic lamp&#34; for unlocking the secrets within your files.
+                    &#34;Genie File&#34; is an AI-powered document assistant designed to seamlessly extract and analyze information from
+                    diverse file formats, enabling intuitive question answering and knowledge discovery. By integrating advanced
+                    retrieval-augmented generation techniques with vector databases and customizable knowledge graphs, it
+                    transforms raw data into actionable insights.
                   </p>
                   <div className="project__used">
                     <span className="project__used__item">Generative AI</span>
@@ -514,9 +559,9 @@ export default function Home() {
                     </a>{" "}
                   </div>
                   <p>
-                    A robust computer-aided detection system for gastrointestinal (GI) diseases utilizing a multi-model approach. 
-                    Leveraging the Kvasir dataset, the system employs deep learning models for accurate detection. 
-                    Additionally, the RGB images are converted to HSV and YUV color spaces to enhance performance. 
+                    A robust computer-aided detection system for gastrointestinal (GI) diseases utilizing a multi-model approach.
+                    Leveraging the Kvasir dataset, the system employs deep learning models for accurate detection.
+                    Additionally, the RGB images are converted to HSV and YUV color spaces to enhance performance.
                   </p>
                   <div className="project__used">
                     <span className="project__used__item">Augmentation</span>
@@ -881,7 +926,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
     </>
 
   );
