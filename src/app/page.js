@@ -44,8 +44,10 @@ export default function Home() {
                   <p>
                     Welcome to my professional journey! I&#39;m Sancharika Debnath, a
                     dynamic Data Scientist with a fervent enthusiasm for leveraging
-                    cutting-edge technology to craft innovative solutions. With a
-                    solid foundation in data science and backend development.
+                    cutting-edge technology to craft innovative solutions. With a solid 
+                    foundation in data science and backend development, I am currently 
+                    co-building <i>Leapon</i>, a groundbreaking product aimed at transforming 
+                    professional relationship management.<br/>
                     Recently graduating from Kalinga Institute of Industrial
                     Technology University with a Bachelor&#39;s Of Technology in
                     Information Technology has equipped me with a strong academic
