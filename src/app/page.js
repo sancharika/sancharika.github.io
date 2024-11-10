@@ -47,8 +47,8 @@ export default function Home() {
                     cutting-edge technology to craft innovative solutions. With a solid 
                     foundation in data science and backend development, I am currently 
                     co-building <i>Leapon</i>, a groundbreaking product aimed at transforming 
-                    professional relationship management.<br/>
-                    Recently graduating from Kalinga Institute of Industrial
+                    professional relationship management.<br/><br/>
+                    Graduated from Kalinga Institute of Industrial
                     Technology University with a Bachelor&#39;s Of Technology in
                     Information Technology has equipped me with a strong academic
                     background to complement my practical skills. I&#39;m eager to
@@ -198,7 +198,7 @@ export default function Home() {
                 </p>
                 <ul className="exp__jd">
                   <li>
-                    <b>Product:</b> We started with the idea of enhancing 
+                    <b>Building Product:</b> We started with the idea of enhancing 
                     the end customer experience in the service industry. Through our insights, we 
                     realized that enabling professionals is key to making this possible. Today, 
                     we have built a productivity tool for professionals that helps them build 
