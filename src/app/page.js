@@ -60,7 +60,7 @@ export default function Home() {
                   <h3>Bringing value that resonates: WHY I stand out!!</h3>
                   <ul>
                   <li>
-                  Co-founder & CTO at Leapon, developing an innovative business relationship 
+                  Building Product at Leapon, developing an innovative business relationship 
                   management tool that leverages AI to enhance productivity and drive ROI for 
                   professionals.
                   </li>
@@ -193,7 +193,7 @@ export default function Home() {
                 <h5 className="date">February 2024 - Present</h5>
                 <p className="exp__role">
                   <b>
-                    <em>CTO</em>
+                    <em>Product Developer</em>
                   </b>
                 </p>
                 <ul className="exp__jd">
@@ -235,7 +235,7 @@ export default function Home() {
                   </a>
                   <br />
                 </h5>
-                <h5 className="date">June 2023 – February 2024</h5>
+                <h5 className="date">June 2023 - January 2024</h5>
                 <p className="exp__role">
                   <b>
                     <em>AI ML Engineer</em>
