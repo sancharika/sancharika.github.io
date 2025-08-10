@@ -192,7 +192,7 @@ export default function Home() {
   </p>
   <ul className="exp__jd">
     <li>
-      <b>Secure Offline AI Deployment:</b> Deployed and configured Large Language Models (LLMs) in a fully offline, air-gapped environment for national security applications. Ensured complete compliance with DRDO's defense protocols and stringent data privacy regulations.
+      <b>Secure Offline AI Deployment:</b> Deployed and configured Large Language Models (LLMs) in a fully offline, air-gapped environment for national security applications. Ensured complete compliance with DRDO&#39;s defense protocols and stringent data privacy regulations.
     </li>
      <li>
       <b>Manual Application-Level Setup:</b> Installed, configured, and optimized LLMs manually at the application-folder level, bypassing cloud services and automated pipelines. Managed installation paths, dependencies, and environment configurations to ensure seamless offline operation.
