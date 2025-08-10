@@ -45,9 +45,7 @@ export default function Home() {
                     Welcome to my professional journey! I&#39;m Sancharika Debnath, a
                     dynamic Data Scientist with a fervent enthusiasm for leveraging
                     cutting-edge technology to craft innovative solutions. With a solid 
-                    foundation in data science and backend development, I am currently 
-                    co-building <i>Leapon</i>, a groundbreaking product aimed at transforming 
-                    professional relationship management.<br/><br/>
+                    foundation in data science and backend development.<br/><br/>
                     Graduated from Kalinga Institute of Industrial
                     Technology University with a Bachelor&#39;s Of Technology in
                     Information Technology has equipped me with a strong academic
@@ -59,11 +57,7 @@ export default function Home() {
                 <div className="about__content__points">
                   <h3>Bringing value that resonates: WHY I stand out!!</h3>
                   <ul>
-                  <li>
-                  Building Product at Leapon, developing an innovative business relationship 
-                  management tool that leverages AI to enhance productivity and drive ROI for 
-                  professionals.
-                  </li>
+                  
                     <li>
                       Dynamic Data Scientist with a passion for leveraging
                       cutting-edge technology to craft innovative solutions.
@@ -140,6 +134,7 @@ export default function Home() {
                 <li>Neo4j Graph Database</li>
                 <li>Tableau</li>
                 <li>GitHub</li>
+                <li>Ollama</li>
               </ul>
             </div>
             <div className="skillz__category">
@@ -178,7 +173,39 @@ export default function Home() {
         <section className="experience" id="experience">
           <div className="row">
             <h2>Experience</h2>
-            <div className="exp__content">
+            <div className="exp__details">
+  <h6 className="exp__comp">
+    <a
+      href="https://drdo.gov.in/drdo/"
+      target="_blank"
+      className="comp__link"
+    >
+      Defence Research and Development Organisation (DRDO)
+    </a>
+    <br />
+  </h6>
+  <h5 className="date">January 2025 - August 2025</h5>
+  <p className="exp__role">
+    <b>
+      <em>Graduate Apprentice (CSE)</em>
+    </b>
+  </p>
+  <ul className="exp__jd">
+    <li>
+      <b>Secure Offline AI Deployment:</b> Deployed and configured Large Language Models (LLMs) in a fully offline, air-gapped environment for national security applications. Ensured complete compliance with DRDO's defense protocols and stringent data privacy regulations.
+    </li>
+     <li>
+      <b>Manual Application-Level Setup:</b> Installed, configured, and optimized LLMs manually at the application-folder level, bypassing cloud services and automated pipelines. Managed installation paths, dependencies, and environment configurations to ensure seamless offline operation.
+    </li>
+    <li>
+      <b>Automated Tender Document Generation:</b> Built a pipeline to automatically generate tender evaluation documents in <span style={{ fontFamily: 'monospace' }}>LaTeX</span> using locally hosted AI models from OLLAMA. Integrated OCR tools (PyTesseract, EasyOCR, pdfplumber) to extract text from PDFs and scanned copies, processed data through LangChain, and generated well-formatted LaTeX outputs.
+    </li>
+    <li>
+      <b>Optimized AI for Restricted Hardware:</b> Tuned memory allocation, inference parameters, and resource usage to run Llama3.2 and Mistral:7B models efficiently within limited hardware constraints, without compromising accuracy or output quality.
+    </li>
+     
+  </ul>
+</div> <div className="exp__content">
               <div className="exp__details">
                 <h6 className="exp__comp">
                   <a

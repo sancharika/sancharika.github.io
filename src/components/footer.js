@@ -80,7 +80,7 @@ export default function Footer() {
           </ul>
 
           <p>
-            © 2024{" "}
+            © 2025{" "}
             <a
               href="https://github.com/sancharika/"
               target="_blank"
