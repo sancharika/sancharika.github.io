@@ -1,13 +1,22 @@
+import { client } from '../sanity/clients';
+
 export default async function sitemap() {
   const baseUrl = 'https://sancharika.github.io';
 
-  // Note: For a fully dynamic sitemap, you would fetch all blog slugs from Sanity here.
-  // Example:
-  // const blogs = await client.fetch(`*[_type == "post"]{ "slug": slug.current, publishedAt }`);
-  // const blogUrls = blogs.map((post) => ({
-  //   url: `${baseUrl}/blogs/${post.slug}`,
-  //   lastModified: post.publishedAt || new Date(),
-  // }));
+  let blogUrls = [];
+
+  try {
+    // Fetch all post slugs and their published/updated dates from Sanity
+    const blogs = await client.fetch(`*[_type == "post" && defined(slug.current)]{ "slug": slug.current, publishedAt, _updatedAt }`);
+    blogUrls = blogs.map((post) => ({
+      url: `${baseUrl}/blogs/${post.slug}`,
+      lastModified: post.publishedAt || post._updatedAt || new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    }));
+  } catch (error) {
+    console.error('Error fetching blogs for sitemap:', error);
+  }
 
   return [
     {
@@ -22,5 +31,6 @@ export default async function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
+    ...blogUrls,
   ];
 }
