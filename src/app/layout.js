@@ -47,7 +47,7 @@ async function sharedMetaData(params) {
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://sancharika.github.io",
+      url: "https://sancharika.github.io/",
       siteName: "Sancharika Debnath",
       images: [
         {
@@ -68,6 +68,9 @@ async function sharedMetaData(params) {
       index: true,
       follow: true
     },
+    alternates: {
+      canonical: "https://sancharika.github.io/",
+    },
     verification: {
       google: "googlea5a49d979d05d87f",
     },
@@ -81,26 +84,11 @@ export async function generateMetadata({ params }) {
 export default function RootLayout({ children }) {
   return (
     <html lang="en"
-    suppressHydrationWarning
-    className={cx(geistSans.variable, geistMono.variable)}>
-    <head>
-        <link rel="icon" href="/favicon.ico" />
-        {/* <!-- Favicon --> */}
-<link rel="icon" href="/images/favicon.ico" />
-
-{/* <!-- PNG Icons --> */}
-<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
-
-{/* <!-- Apple Touch Icon --> */}
-<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-
-{/* <!-- Android Icons --> */}
-<link rel="icon" type="image/png" href="/images/android-chrome-192x192.png" sizes="192x192" />
-<link rel="icon" type="image/png" href="/images/android-chrome-512x512.png" sizes="512x512" />
-
+      suppressHydrationWarning
+      className={cx(geistSans.variable, geistMono.variable)}>
+      <head>
+        <link rel="icon" href="/images/favicon.ico" />
       </head>
-    <GoogleTagManager gtmId="G-X9L170K86G" />
       <body
         className={`antialiased text-gray-800 dark:bg-black dark:text-gray-400`}
       >
@@ -122,6 +110,7 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+        <GoogleTagManager gtmId="G-X9L170K86G" />
       <Navbar/>
         <ThemeProvider attribute="class" defaultTheme="light">
       {children}

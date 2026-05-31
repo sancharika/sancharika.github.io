@@ -9,7 +9,7 @@ async function sharedMetaData(params) {
   }
 
   return {
-    metadataBase: new URL("https://sancharika.github.io"),
+    metadataBase: new URL("https://sancharika.github.io/"),
     title: {
       default:
         "Blogs | From Data to Life",
@@ -22,7 +22,7 @@ async function sharedMetaData(params) {
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://sancharika.github.io/blogs",
+      url: "https://sancharika.github.io/blogs/",
       siteName: "Sancharika Debnath Blogs",
       images: [
         {
@@ -42,7 +42,10 @@ async function sharedMetaData(params) {
     robots: {
       index: true,
       follow: true
-    }
+    },
+    alternates: {
+  canonical: `https://sancharika.github.io/blogs/`,
+},
   };
 }
 
