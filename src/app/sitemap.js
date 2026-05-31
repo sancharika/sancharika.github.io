@@ -10,7 +10,7 @@ export default async function sitemap() {
     const blogs = await client.fetch(`*[_type == "post" && defined(slug.current)]{ "slug": slug.current, publishedAt, _updatedAt }`);
     blogUrls = blogs.map((post) => ({
       url: `${baseUrl}/blogs/${post.slug}`,
-      lastModified: post.publishedAt || post._updatedAt || new Date(),
+      lastModified: new Date(post.publishedAt || post._updatedAt || Date.now()).toISOString(),
       changeFrequency: 'monthly',
       priority: 0.7,
     }));
@@ -21,13 +21,13 @@ export default async function sitemap() {
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: new Date().toISOString(),
       changeFrequency: 'yearly',
       priority: 1,
     },
     {
       url: `${baseUrl}/blogs`,
-      lastModified: new Date(),
+      lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
