@@ -7,12 +7,9 @@ async function sharedMetaData(params) {
     },
     alt: "Sancharika Debnath"
   }
-  // const settings = await getSettings();
-// console.log("params: ", urlForImage(image).src);
 
   return {
-    // enable this for resolving opengraph image
-    // metadataBase: new URL(settings.url),
+    metadataBase: new URL("https://sancharika.github.io"),
     title: {
       default:
         "Blogs | From Data to Life",
@@ -20,10 +17,13 @@ async function sharedMetaData(params) {
     },
     description: 
     "Explore blogs on Data Science, AI, Machine Learning, and life experiences that inspire and inform. | Sancharika Debnath",
-    keywords: ["ML", "AI", "Data Science"],
+    keywords: ["ML", "AI", "Data Science", "Blogs", "Sancharika Debnath"],
     authors: [{ name: "Sancharika" }],
-    // canonical: settings?.url,
     openGraph: {
+      type: "website",
+      locale: "en_US",
+      url: "https://sancharika.github.io/blogs",
+      siteName: "Sancharika Debnath Blogs",
       images: [
         {
           url: urlForImage(image).src,
@@ -35,7 +35,9 @@ async function sharedMetaData(params) {
     },
     twitter: {
       title: "Blogs | Sancharika",
-      card: "summary_large_image"
+      card: "summary_large_image",
+      site: "@_Sancharika",
+      creator: "@_Sancharika"
     },
     robots: {
       index: true,

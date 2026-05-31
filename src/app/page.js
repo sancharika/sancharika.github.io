@@ -35,8 +35,13 @@ export default function Home() {
           <div className="row">
             <h2 className="about__heading">About Me</h2>
             <div className="about__photo-container">
-              <Image className="about__photo" src={"/images/sancharika.png"} alt="" height={400}
-                width={400} />
+              <Image 
+                className="about__photo" 
+                src={"/images/sancharika.png"} 
+                alt="Sancharika Debnath - Data Scientist Portfolio" 
+                height={400}
+                width={400} 
+              />
             </div>
             <div className="about__content">
               <div className="about__text">

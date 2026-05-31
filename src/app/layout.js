@@ -25,12 +25,9 @@ async function sharedMetaData(params) {
     },
     alt: "Sancharika Debnath"
   }
-  // const settings = await getSettings();
-// console.log("params: ", urlForImage(image).src);
 
   return {
-    // enable this for resolving opengraph image
-    // metadataBase: new URL(settings.url),
+    metadataBase: new URL("https://sancharika.github.io"),
     title: {
       default:
         "Sancharika Debnath | Data Scientist",
@@ -38,10 +35,20 @@ async function sharedMetaData(params) {
     },
     description:
       "A Data Scientist who LOVES to explore!",
-    keywords: ["Data Science", "Machine Learning", "Python", "Artificial Intelligence"],
+    keywords: [
+      "Data Science",
+      "Machine Learning",
+      "Python",
+      "Artificial Intelligence",
+      "Portfolio",
+      "Sancharika Debnath"
+    ],
     authors: [{ name: "Sancharika" }],
-    // canonical: settings?.url,
     openGraph: {
+      type: "website",
+      locale: "en_US",
+      url: "https://sancharika.github.io",
+      siteName: "Sancharika Debnath",
       images: [
         {
           url: urlForImage(image).src,
@@ -52,8 +59,10 @@ async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: "Blogs | Sancharika",
-      card: "summary_large_image"
+      title: "Sancharika Debnath | Data Scientist",
+      card: "summary_large_image",
+      site: "@_Sancharika",
+      creator: "@_Sancharika"
     },
     robots: {
       index: true,
@@ -92,6 +101,24 @@ export default function RootLayout({ children }) {
       <body
         className={`antialiased text-gray-800 dark:bg-black dark:text-gray-400`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Sancharika Debnath",
+              "url": "https://sancharika.github.io",
+              "jobTitle": "Data Scientist",
+              "sameAs": [
+                "https://twitter.com/_Sancharika",
+                "https://github.com/sancharika/",
+                "https://www.linkedin.com/in/sancharika-debnath/",
+                "https://huggingface.co/sancharikadebnath"
+              ]
+            }),
+          }}
+        />
       <Navbar/>
         <ThemeProvider attribute="class" defaultTheme="light">
       {children}
