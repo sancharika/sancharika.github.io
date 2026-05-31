@@ -67,7 +67,10 @@ async function sharedMetaData(params) {
     robots: {
       index: true,
       follow: true
-    }
+    },
+    verification: {
+      google: "googlea5a49d979d05d87f",
+    },
   };
 }
 
