@@ -491,7 +491,7 @@ export default function Home() {
                 </ul>
               </div>
               <a
-                href="https://sancharika.github.io/resume.pdf/"
+                href="https://sancharika.github.io/resume.pdf"
                 target="_blank"
                 className="arrow-link"
               >

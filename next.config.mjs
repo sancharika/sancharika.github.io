@@ -14,6 +14,15 @@ const nextConfig = {
             },
         ],
     },
+    trailingSlash: true,
+    additionalPaths: async (config) => [
+    {
+      loc: '/resume.pdf', // next-sitemap transforms this based on trailingSlash settings, ensure it evaluates cleanly to the file
+      changefreq: 'monthly',
+      priority: 0.5,
+      lastmod: new Date().toISOString(),
+    },
+],
 };
 
 export default nextConfig;
