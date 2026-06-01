@@ -89,7 +89,7 @@ export default function Home() {
                 </div>
                 <div className="about__column">
                   <a
-                    href="https://shorturl.at/puER9"
+                    href="https://shorturl.at/puER9/"
                     target="_blank"
                     className="btn"
                   >
@@ -491,7 +491,7 @@ export default function Home() {
                 </ul>
               </div>
               <a
-                href="https://sancharika.github.io/resume.pdf"
+                href="https://sancharika.github.io/resume.pdf/"
                 target="_blank"
                 className="arrow-link"
               >
@@ -513,7 +513,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/geniefile"
+                      href="https://github.com/sancharika/geniefile/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -541,7 +541,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/CareerEnchanter"
+                      href="https://github.com/sancharika/CareerEnchanter/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -566,7 +566,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/LLM-QA-ChatBot"
+                      href="https://github.com/sancharika/LLM-QA-ChatBot/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -590,7 +590,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Gastrointestinal-Disease-Detection"
+                      href="https://github.com/sancharika/Gastrointestinal-Disease-Detection/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -614,7 +614,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Capstone-Project"
+                      href="https://github.com/sancharika/Capstone-Project/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -647,7 +647,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/AI-Blogger"
+                      href="https://github.com/sancharika/AI-Blogger/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -669,7 +669,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/IntelliSummarize"
+                      href="https://github.com/sancharika/IntelliSummarize/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -694,7 +694,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Fine-Tuning-LLM"
+                      href="https://github.com/sancharika/Fine-Tuning-LLM/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -719,7 +719,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Udacity-AI-Project"
+                      href="https://github.com/sancharika/Udacity-AI-Project/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -745,7 +745,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Operationalizing-Machine-Learning-on-SageMaker-Project"
+                      href="https://github.com/sancharika/Operationalizing-Machine-Learning-on-SageMaker-Project/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -775,7 +775,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Deep-Learning-Topics-with-Computer-Vision-NLP-Project"
+                      href="https://github.com/sancharika/Deep-Learning-Topics-with-Computer-Vision-NLP-Project/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -826,7 +826,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Deep-Learning-Models"
+                      href="https://github.com/sancharika/Deep-Learning-Models/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -851,7 +851,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Object_identifier"
+                      href="https://github.com/sancharika/Object_identifier/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -878,7 +878,7 @@ export default function Home() {
                   <div className="project__name">
                     {" "}
                     <a
-                      href="https://github.com/sancharika/Dog-Cat-Classification"
+                      href="https://github.com/sancharika/Dog-Cat-Classification/"
                       target="_blank"
                       className="arrow-link"
                     >
@@ -913,7 +913,7 @@ export default function Home() {
               <div className="project__name">
                 {" "}
                 <a
-                  href="https://github.com/sancharika/Hyperspectral-Image-Compression"
+                  href="https://github.com/sancharika/Hyperspectral-Image-Compression/"
                   target="_blank"
                   className="arrow-link"
                 >
@@ -925,7 +925,7 @@ export default function Home() {
                 The Research paper published in{" "}
                 <a
                   className="underline-link"
-                  href="https://www.researchgate.net/publication/372829131_Hyperspectral_Image_Compression_using_Modified_Convolutional_Autoencoder"
+                  href="https://www.researchgate.net/publication/372829131_Hyperspectral_Image_Compression_using_Modified_Convolutional_Autoencoder/"
                 >
                   IJCISIM
                 </a>

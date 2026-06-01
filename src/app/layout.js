@@ -21,13 +21,13 @@ const geistMono = localFont({
 async function sharedMetaData(params) {
   const image = {
     asset: {
-      url: 'https://cdn.sanity.io/images/ufypgguq/production/7f9d9cdf30041e4d8ab4dbf71830e2922d6f2076-612x612.png'
+      url: 'https://cdn.sanity.io/images/ufypgguq/production/7f9d9cdf30041e4d8ab4dbf71830e2922d6f2076-612x612.png/'
     },
     alt: "Sancharika Debnath"
   }
 
   return {
-    metadataBase: new URL("https://sancharika.github.io"),
+    metadataBase: new URL("https://sancharika.github.io/"),
     title: {
       default:
         "Sancharika Debnath | Data Scientist",
@@ -47,7 +47,7 @@ async function sharedMetaData(params) {
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://sancharika.github.io/",
+      url: "/",
       siteName: "Sancharika Debnath",
       images: [
         {
@@ -69,7 +69,7 @@ async function sharedMetaData(params) {
       follow: true
     },
     alternates: {
-      canonical: "https://sancharika.github.io/",
+      canonical: "/",
     },
     verification: {
       google: "googlea5a49d979d05d87f",
@@ -96,16 +96,16 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "https://schema.org",
+              "@context": "https://schema.org/",
               "@type": "Person",
               "name": "Sancharika Debnath",
-              "url": "https://sancharika.github.io",
+              "url": "https://sancharika.github.io/",
               "jobTitle": "Data Scientist",
               "sameAs": [
-                "https://twitter.com/_Sancharika",
+                "https://twitter.com/_Sancharika/",
                 "https://github.com/sancharika/",
                 "https://www.linkedin.com/in/sancharika-debnath/",
-                "https://huggingface.co/sancharikadebnath"
+                "https://huggingface.co/sancharikadebnath/"
               ]
             }),
           }}

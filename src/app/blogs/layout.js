@@ -3,7 +3,7 @@ import  {urlForImage} from "../../sanity/clients"
 async function sharedMetaData(params) {
   const image = {
     asset: {
-      url: 'https://cdn.sanity.io/images/ufypgguq/production/7f9d9cdf30041e4d8ab4dbf71830e2922d6f2076-612x612.png'
+      url: 'https://cdn.sanity.io/images/ufypgguq/production/7f9d9cdf30041e4d8ab4dbf71830e2922d6f2076-612x612.png/'
     },
     alt: "Sancharika Debnath"
   }
@@ -22,7 +22,7 @@ async function sharedMetaData(params) {
     openGraph: {
       type: "website",
       locale: "en_US",
-      url: "https://sancharika.github.io/blogs/",
+      url: "blogs/",
       siteName: "Sancharika Debnath Blogs",
       images: [
         {
@@ -44,7 +44,7 @@ async function sharedMetaData(params) {
       follow: true
     },
     alternates: {
-  canonical: `https://sancharika.github.io/blogs/`,
+  canonical: `blogs/`,
 },
   };
 }

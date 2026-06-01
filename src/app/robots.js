@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://sancharika.github.io/sitemap.xml',
+    sitemap: 'https://sancharika.github.io/sitemap.xml/',
   }
 }

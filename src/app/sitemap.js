@@ -1,7 +1,7 @@
 import { client } from '../sanity/clients';
 
 export default async function sitemap() {
-  const baseUrl = 'https://sancharika.github.io';
+  const baseUrl = 'https://sancharika.github.io/';
 
   let blogUrls = [];
 
@@ -9,7 +9,7 @@ export default async function sitemap() {
     // Fetch all post slugs and their published/updated dates from Sanity
     const blogs = await client.fetch(`*[_type == "post" && defined(slug.current)]{ "slug": slug.current, publishedAt, _updatedAt }`);
     blogUrls = blogs.map((post) => ({
-      url: `${baseUrl}/blogs/${post.slug}/`,
+      url: `${baseUrl}blogs/${post.slug}/`,
       lastModified: new Date(post.publishedAt || post._updatedAt || Date.now()).toISOString(),
       changeFrequency: 'monthly',
       priority: 0.7,
@@ -20,13 +20,13 @@ export default async function sitemap() {
 
   return [
     {
-      url: `${baseUrl}/`,
+      url: `${baseUrl}`,
       lastModified: new Date().toISOString(),
       changeFrequency: 'yearly',
       priority: 1,
     },
     {
-      url: `${baseUrl}/blogs/`,
+      url: `${baseUrl}blogs/`,
       lastModified: new Date().toISOString(),
       changeFrequency: 'monthly',
       priority: 0.8,

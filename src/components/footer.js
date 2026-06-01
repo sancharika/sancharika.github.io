@@ -15,7 +15,7 @@ export default function Footer() {
           <ul className="footer__social-links">
             <li className="footer__social-link-item">
               <a
-                href="https://twitter.com/_Sancharika"
+                href="https://twitter.com/_Sancharika/"
                 title="Link to Twitter Profile"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -47,7 +47,7 @@ export default function Footer() {
             </li>
             <li className="footer__social-link-item">
               <a
-                href="https://huggingface.co/sancharikadebnath"
+                href="https://huggingface.co/sancharikadebnath/"
                 title="Link to HuggingFace Profile"
                 target="_blank"
                 rel="noopener noreferrer"
