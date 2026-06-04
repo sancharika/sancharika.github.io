@@ -1,3 +1,4 @@
+// app/blogs/[slug]/page.js
 import PostPage from "./default";
 import {client, urlForImage} from "../../../sanity/clients"
 

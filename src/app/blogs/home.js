@@ -1,3 +1,4 @@
+// app/blogs/home.js
 import Link from "next/link";
 import Container from "../../components/container";  // Corrected path
 import PostList from "../../components/postlist";

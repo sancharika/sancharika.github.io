@@ -65,7 +65,7 @@ export default function About() {
   </ul>
   <p>I don&#39;t pitch technology I haven&#39;t deployed.</p>
 </div>
-            <div className="about__column flex flex-col sm:flex-row items-center justify-center gap-4 mx-auto w-fit mt-8">
+            <div className="about__column" style={{ display: "flex", gap: "1rem", alignItems: "center", flexWrap: "wrap", margin: "0 auto", width: "fit-content" }}>
               <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn">
                 My Resume
               </a>

@@ -997,43 +997,20 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Footer ----- */
 /* --------------------------------------- */
 
-.footer__copy {
-  font-size: 1.3rem;
-  color: rgba(255, 255, 255, 0.4);
-}
-/* .footer {
-  text-align: center;
-  padding: var(--gutter-medium) 0 var(--gutter-normal);
-}
-
 .footer__social-links {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  padding: var(--gutter-normal) 0;
+  align-items: center;
+  gap: 16px;
   list-style: none;
+  padding-top: 10px;
+  margin: 0 0 16px 0;
 }
 
-.footer__social-link-item:not(:last-of-type) {
-  margin-right: var(--gutter-small);
-}
-
-.footer__social-image {
-  height: 4rem;
-}
-
-.footer__github-buttons {
+.footer .row {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
-
-.footer__github-buttons iframe {
-  height: 2.5rem;
-  width: 84px;
-  transform: translateY(3px);
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-      padding: var(--gutter-medium) 0;
-  }
-} */

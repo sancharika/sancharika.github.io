@@ -1,3 +1,4 @@
+// app/blogs/layout.js
 import "../../styles/tailwind.css";
 import  {urlForImage} from "../../sanity/clients"
 async function sharedMetaData(params) {
