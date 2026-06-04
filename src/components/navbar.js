@@ -1,5 +1,6 @@
 "use client";
 import Container from "./container";
+import Link from "next/link";
 
 export default function Navbar() {
   
@@ -11,39 +12,44 @@ export default function Navbar() {
           <nav className="nav bg-black" role="navigation">
             <ul className="nav__items">
               <li className="nav__item">
-                <a href="/#about" className="nav__link">
+                <Link href="/" className="nav__link">
+                  Home
+                </Link>
+              </li>
+              <li className="nav__item">
+                <Link href="/about" className="nav__link">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="/#skills" className="nav__link">
+                <Link href="/skills" className="nav__link">
                   Skills
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="/#experience" className="nav__link">
+                <Link href="/experience" className="nav__link">
                   Experience
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="/#projects" className="nav__link">
+                <Link href="/projects" className="nav__link">
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="/#publication" className="nav__link">
+                <Link href="/publications" className="nav__link">
                   Publication
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="/blogs" className="nav__link">
+                <Link href="/blogs" className="nav__link">
                   Blogs
-                </a>
+                </Link>
               </li>
               <li className="nav__item">
-                <a href="/#contact" className="nav__link">
+                <Link href="/contact" className="nav__link">
                   Contact
-                </a>
+                </Link>
               </li>
               {/* <a href="home/home.html">Go to Home</a> */}
             </ul>
@@ -53,5 +59,3 @@ export default function Navbar() {
     </Container>
   );
 }
-
-
