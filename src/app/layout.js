@@ -30,12 +30,13 @@ async function sharedMetaData(params) {
     metadataBase: new URL("https://sancharika.github.io/"),
     title: {
       default:
-        "Sancharika Debnath | Data Scientist",
+        "Sancharika Debnath | Applied AI Engineer | Machine Learning Engineer",
       template: "%s | Sancharika"
     },
     description:
-      "A Data Scientist who LOVES to explore!",
+      "A Applied AI Engineer who LOVES to explore!",
     keywords: [
+      "Applied AI Engineer",
       "Data Science",
       "Machine Learning",
       "Python",
@@ -59,7 +60,7 @@ async function sharedMetaData(params) {
       ]
     },
     twitter: {
-      title: "Sancharika Debnath | Data Scientist",
+      title: "Sancharika Debnath | Applied AI Engineer | Machine Learning Engineer",
       card: "summary_large_image",
       site: "@_Sancharika",
       creator: "@_Sancharika"
@@ -100,7 +101,7 @@ export default function RootLayout({ children }) {
               "@type": "Person",
               "name": "Sancharika Debnath",
               "url": "https://sancharika.github.io/",
-              "jobTitle": "Data Scientist",
+              "jobTitle": "Applied AI Engineer",
               "sameAs": [
                 "https://twitter.com/_Sancharika/",
                 "https://github.com/sancharika/",

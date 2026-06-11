@@ -17,7 +17,7 @@ async function sharedMetaData(params) {
       template: "%s | Sancharika"
     },
     description: 
-    "Explore blogs on Data Science, AI, Machine Learning, and life experiences that inspire and inform. | Sancharika Debnath",
+    "Explore blogs on Applied AI, Data Science, AI, Machine Learning, and life experiences that inspire and inform. | Sancharika Debnath",
     keywords: ["ML", "AI", "Data Science", "Blogs", "Sancharika Debnath"],
     authors: [{ name: "Sancharika" }],
     openGraph: {

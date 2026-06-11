@@ -1,3 +1,4 @@
+// app/blogs/[slug]/opengraph-todo.js
 import { ImageResponse } from "@vercel/og";
 import { getPostBySlug } from "./default";
 import OgImage from "@/components/ogimage";
@@ -20,12 +21,6 @@ export default async function handler({ params }) {
         data: fontData,
         style: "normal"
       }
-      // {
-      //   name: "Inter",
-      //   data: interBoldFont,
-      //   style: "normal",
-      //   weight: 700
-      // }
     ]
   });
 }
